@@ -9,10 +9,12 @@ import Counter2 from '../Logos/Counter2.svg';
 import Counter3 from '../Logos/Counter 3.svg';
 import GroupImage from '../Logos/Group 29.svg';
 import Illustration from '../Logos/Illustration & Title.svg';
-import Tick from '../Logos/Tickmark.svg'
-import locate from '../Logos/Android Rectangle.svg'
-import speed from '../Logos/Speed Rectangle.svg'
-import bulb from '../Logos/Bulb Rectangle.svg'
+import Tick from '../Logos/Tickmark.svg';
+import locate from '../Logos/Android Rectangle.svg';
+import speed from '../Logos/Speed Rectangle.svg';
+import bulb from '../Logos/Bulb Rectangle.svg';
+import Testimonials from '../Logos/Testimonials.svg'
+import logo from '../Logos/Logo.svg'
 
 export default function Main() {
   return (
@@ -27,7 +29,7 @@ export default function Main() {
         <p className='ml-[112px] mt text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[36px]'>
           Integer id orci sed ante tincidunt
         </p>
-        <button className="ml-[112px] mt-[24px] text-blue-400 text-center font-roboto text-base font-medium uppercase flex w-[211px] h-[50px] rounded-lg border border-blue-400 bg-white shadow-md p-[4px] justify-center items-center flex-shrink-0 ">
+        <button className="ml-[112px] mt-[24px] text-blue-400 text-center font-roboto text-base font-medium uppercase flex w-[211px] h-[50px] rounded-lg border border-blue-400 bg-white shadow-md p-[4px] justify-center items-center flex-shrink-0">
           Write To Us
           <img src={Send} alt='Send Button' className='ml-[20px] w-[15px] h-[18px]' />
         </button>
@@ -100,32 +102,39 @@ export default function Main() {
           </p>
         </div>
         <div className='flex'>
-        <div className='flex'>
-        <div className='flex-col ml-[-495px]'>
-          <img className=' mt-[275px]  rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0' alt='tick' src={Tick} />
-          <p className='mt-[1px] text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px]' >Nulla lobortis nunc</p>
-          <p className='mt[1px] text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'>Interdum et malesuada fames ac ante</p><p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'> ipsum primis in faucibus.</p>
+          <div className='flex'>
+            <div className='flex-col ml-[-495px]'>
+              <img className=' mt-[275px]  rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0' alt='tick' src={Tick} />
+              <p className='mt-[1px] text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px]'>Nulla lobortis nunc</p>
+              <p className='mt[1px] text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'>Interdum et malesuada fames ac ante</p>
+              <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'> ipsum primis in faucibus.</p>
+            </div>
+            <div className='flex-col'>
+              <img alt='locate' src={locate} className='rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0 mt-[275px] ml-[50px]' />
+              <p className='mt-[1px] text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px] ml-[55px]'>Vestibulum faucibus</p>
+              <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px] ml-[55px]'>In id nisi id neque venenatis molestie</p>
+              <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px] ml-[55px]'> Quisque lacinia purus ut libero facilisis.</p>
+            </div>
+          </div>
+          <div className='flex'>
+            <div className='flex-col ml-[-590px]'>
+              <img alt='speed' src={speed} className='mt-[435px]  rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0' />
+              <p className='text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px]'> Suspendisse porttitor</p>
+              <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'>unc quis sem quis velit tincidunt congue</p>
+              <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'> a sit amet ante.</p>
+            </div>
+            <div className='flex-col '>
+              <img alt='bulb' src={bulb} className='rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0 mt-[435px] ml-[35px]' />
+              <p className='text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px] ml-[40px] mt-[1px]'>Ut sed eros</p>
+              <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px] ml-[40px]'>In hac habitasse platea dictumst. In mi</p>
+              <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px] ml-[40px]'> nulla, fringilla vestibulum finibus et.</p>
+            </div>
+          </div>
         </div>
-        <div className='flex-col'>
-          <img alt='locate' src={locate} className='rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0 mt-[275px] ml-[50px]' />
-          <p className='mt-[1px] text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px] ml-[55px]'>Vestibulum faucibus</p>
-          <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px] ml-[55px]'>In id nisi id neque venenatis molestie</p><p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px] ml-[55px]'> Quisque lacinia purus ut libero facilisis.</p>
-        </div>
-        </div>
-        <div className='flex'>
-        <div className='flex-col ml-[-590px]'>
-          <img alt='speed' src={speed} className='mt-[435px]  rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0' />
-          <p className='text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px]'> Suspendisse porttitor</p>
-          <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'>unc quis sem quis velit tincidunt congue</p><p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'> a sit amet ante.</p>
-        </div>
-        <div className='flex-col '>
-          <img alt='bulb' src={bulb} className='rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0 mt-[435px] ml-[35px]' />
-          <p className='text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px] ml-[40px] mt-[1px]'>Ut sed eros</p>
-          <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px] ml-[40px]'>In hac habitasse platea dictumst. In mi</p><p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px] ml-[40px]'> nulla, fringilla vestibulum finibus et.</p>
-
-        </div>
-        </div>
-        </div>
+      </div>
+      <div className='mt-[-90px]'><img alt='testimonials' src={Testimonials} />
+      </div>
+      <div className='mt-[24px] ml-[240px]'><img alt='logo' src={logo} />
       </div>
     </div>
   );
