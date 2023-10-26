@@ -13,8 +13,9 @@ import Tick from '../Logos/Tickmark.svg';
 import locate from '../Logos/Android Rectangle.svg';
 import speed from '../Logos/Speed Rectangle.svg';
 import bulb from '../Logos/Bulb Rectangle.svg';
-import Testimonials from '../Logos/Testimonials.svg'
-import logo from '../Logos/Logo.svg'
+import Testimonials from '../Logos/Testimonials.svg';
+import logo from '../Logos/Logo.svg';
+import group30 from '../Logos/Group30.svg';
 
 export default function Main() {
   return (
@@ -104,7 +105,7 @@ export default function Main() {
         <div className='flex'>
           <div className='flex'>
             <div className='flex-col ml-[-495px]'>
-              <img className=' mt-[275px]  rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0' alt='tick' src={Tick} />
+              <img className='mt-[275px]  rounded-[6px] bg-blue-200 w-[24px] h-[24px] transform rotate-45 flex-shrink-0' alt='tick' src={Tick} />
               <p className='mt-[1px] text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[42px]'>Nulla lobortis nunc</p>
               <p className='mt[1px] text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'>Interdum et malesuada fames ac ante</p>
               <p className='text-rgba-0-0-0-87 font-roboto text-base font-normal leading-[24px]'> ipsum primis in faucibus.</p>
@@ -132,10 +133,34 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className='mt-[-90px]'><img alt='testimonials' src={Testimonials} />
+      <div className='mt-[-90px]'>
+        <img alt='testimonials' src={Testimonials} />
       </div>
-      <div className='mt-[24px] ml-[240px]'><img alt='logo' src={logo} />
+      <div className='mt-[24px] ml-[240px]'>
+        <img alt='logo' src={logo} />
       </div>
+      <div className='flex-col'> 
+        <p className='w-[323px] mt-[167.5px] ml-[137px] text-blue-700 font-roboto text-5xl font-bold leading-[78px]'>Case</p>
+        <p className='w-[323px] mt-[px] ml-[137px] text-blue-700 font-roboto text-5xl font-bold leading-[78px]'> Studies </p>
+      </div>
+<div className='flex'>      <div className=' flex flex-col  mt-[20px] ml-[137px] w-[195px] text-center'>
+        <p className=' mb-4 text-blue-700 font-roboto text-xl  font-normal leading-[36px] bg-blue-200 rounded-lg ml[30px] pr-[38px] '> Corporate</p>
+        <div className='ml-[-20px]'>
+          <p className=' mb-4 text-rgba-0-0-0-87 font-roboto text-xl font-normal leading-[36px]'>Advertising</p>
+          <p className=' mb-4 text-rgba-0-0-0-87 font-roboto text-xl font-normal leading-[36px] ml-[-4px]'>Marketing</p>
+          <p className=' mb-4 text-rgba-0-0-0-87 font-roboto text-xl font-normal leading-[36px] ml-[22px]'> Government</p>
+          <p className=' mb-4 text-rgba-0-0-0-87 font-roboto text-xl font-normal leading-[36px] ml-[-8px]'>Creative</p>
+        </div>
+      </div>      <div className='ml-[120px] mt-[-170px]'><img alt='group30' src={group30} /></div>
+</div>
+<div className='flex-col w-[1215px] h-[168.206px] flex-shrink-0 rounded-3xl bg-blue-500 mt-[160px] ml-[130px]'> 
+<div className=' mt-[43px]'>
+<p className='text-white font-roboto text-3xl font-bold font-normal ml-[187px] mt-[247px]'>Ready to get started ?</p>
+<p className='text-white font-roboto text-xl font-medium ml-[187px] mt-[10px]'>Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.</p>
+</div>
+</div>
     </div>
+    
+  
   );
 }
