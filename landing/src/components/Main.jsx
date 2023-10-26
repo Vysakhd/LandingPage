@@ -16,6 +16,8 @@ import bulb from '../Logos/Bulb Rectangle.svg';
 import Testimonials from '../Logos/Testimonials.svg';
 import logo from '../Logos/Logo.svg';
 import group30 from '../Logos/Group30.svg';
+import agency from '../Logos/Agency.svg';
+import skyrev from '../Logos/SkyRev.svg';
 
 export default function Main() {
   return (
@@ -163,6 +165,42 @@ export default function Main() {
           <img src={Send} alt='Send Button' className='ml-[20px] w-[15px] h-[18px]' />
         </button>
 </div>
+<div className='flex'>
+  <div className='flex-col'>
+<div><img alt="logo" className=" w-[137px] h-[50px] p-[2px] p-[0px] p-[1px] p-[2px] justify-center items-center flex-shrink-0 ml-[113px] mt-[132px] mr-[64px]" src={agency} /></div>
+<div><p className='mt-[28px] ml-[113px] text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[6px]' >Nam posuere accumsan porta. Integer</p><p className=' mt-[24px] ml-[113px] text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[6px]'> id orci sed ante tincidunt tincidunt sit</p><p className='mt-[24px] ml-[113px] text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[6px] '> amet sed libero.</p></div>
+<div><img alt='skyrev' src={skyrev} className=' ml-[30px] mt-[37px] w-[304px] h-[15px] flex-shrink-0 text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[6px]' /></div>
+</div>
+
+<div className='ml-[172px] mt-[122px]'><p className='text-blue-700 font-roboto text-base font-semibold text-uppercase'>COMPANY</p></div>
+<div className='mt-[179px] ml-[-74px]'><p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[1px]'>Donec dignissim</p>
+
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Curabitur egestas</p>
+
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Nam posuere</p>
+
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Aenean facilisis</p></div>
+
+<div className='ml-[84px] mt-[122px]'><p className='text-blue-700 font-roboto text-base font-semibold text-uppercase'>SERVICES</p></div>
+<div className='ml-[-71px] mt-[144px]'><p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]' >Cras convallis</p>
+
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Vestibulum faucibus</p>
+
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Quisque lacinia purus</p>
+
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Aliquam nec ex</p></div>
+<div className='ml-[81px] mt-[122px]'><p className='text-blue-700 font-roboto text-base font-semibold text-uppercase'>Resources</p></div>
+<div className='ml-[-72px] mt-[144px]'><p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]' >Suspendisse porttitor</p>
+
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Nam posuere</p>
+
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Curabitur egestas </p></div>
+
+
+
+
+</div>
+
     </div>
     
   
