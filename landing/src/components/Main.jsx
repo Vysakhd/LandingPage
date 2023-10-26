@@ -154,10 +154,14 @@ export default function Main() {
       </div>      <div className='ml-[120px] mt-[-170px]'><img alt='group30' src={group30} /></div>
 </div>
 <div className='flex-col w-[1215px] h-[168.206px] flex-shrink-0 rounded-3xl bg-blue-500 mt-[160px] ml-[130px]'> 
-<div className=' mt-[43px]'>
-<p className='text-white font-roboto text-3xl font-bold font-normal ml-[187px] mt-[247px]'>Ready to get started ?</p>
-<p className='text-white font-roboto text-xl font-medium ml-[187px] mt-[10px]'>Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.</p>
+<div className=' mt-[-80px] pl-[-200px]'>
+<p className='text-white font-roboto text-3xl font-bold font-normal ml-[87px] mt-[247px] pt-[43px]'>Ready to get started ?</p>
+<p className='text-white font-roboto text-xl font-medium ml-[87px] mt-[10px] '>Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.</p>
 </div>
+<button className="ml-[879px] mt-[-64px] text-blue-400 text-center font-roboto text-base font-medium uppercase flex w-[235px] h-[50px] rounded-lg border border-blue-400 bg-white shadow-md p-[4px] justify-center items-center flex-shrink-0">
+          Write To Us
+          <img src={Send} alt='Send Button' className='ml-[20px] w-[15px] h-[18px]' />
+        </button>
 </div>
     </div>
     
