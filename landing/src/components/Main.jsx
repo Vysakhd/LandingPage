@@ -18,6 +18,8 @@ import logo from '../Logos/Logo.svg';
 import group30 from '../Logos/Group30.svg';
 import agency from '../Logos/Agency.svg';
 import skyrev from '../Logos/SkyRev.svg';
+import socails from "../Logos/socails.svg";
+import dropdown from "../Logos/dropdown.svg";
 
 export default function Main() {
   return (
@@ -194,12 +196,17 @@ export default function Main() {
 
 <p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Nam posuere</p>
 
-<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Curabitur egestas </p></div>
+<p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Curabitur egestas </p>
 
+</div>
+<div className='ml-[113px] mt-[162px]'><img alt='social' src={socails}></img>
+<img alt='drop' src={dropdown} className='mt-[38.5px]'></img>
+</div>
 
 
 
 </div>
+
 
     </div>
     
