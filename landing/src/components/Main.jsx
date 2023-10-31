@@ -1,25 +1,25 @@
 import React from 'react';
-import Banner from '../Images/Banner1.png';
-import Send from '../Logos/Send.svg';
-import Line2 from '../Logos/Line2.svg';
-import Rectangle from '../Logos/Rectangle.svg';
-import Collage from '../Logos/Collage.svg';
-import Counter1 from '../Logos/Counter1.svg';
-import Counter2 from '../Logos/Counter2.svg';
-import Counter3 from '../Logos/Counter 3.svg';
-import GroupImage from '../Logos/Group 29.svg';
-import Illustration from '../Logos/Illustration & Title.svg';
-import Tick from '../Logos/Tickmark.svg';
-import locate from '../Logos/Android Rectangle.svg';
-import speed from '../Logos/Speed Rectangle.svg';
-import bulb from '../Logos/Bulb Rectangle.svg';
-import Testimonials from '../Logos/Testimonials.svg';
-import logo from '../Logos/Logo.svg';
-import group30 from '../Logos/Group30.svg';
-import agency from '../Logos/Agency.svg';
-import skyrev from '../Logos/SkyRev.svg';
-import socails from "../Logos/socails.svg";
-import dropdown from "../Logos/dropdown.svg";
+import Banner from '../images/Banner1.png';
+import Send from '../logos/Send.svg';
+import Line2 from '../logos/Line2.svg';
+import Rectangle from '../logos/Rectangle.svg';
+import Collage from '../logos/Collage.svg';
+import Counter1 from '../logos/Counter1.svg';
+import Counter2 from '../logos/Counter2.svg';
+import Counter3 from '../logos/Counter 3.svg';
+import GroupImage from '../logos/Group 29.svg';
+import Illustration from '../logos/Illustration & Title.svg';
+import Tick from '../logos/Tickmark.svg';
+import locate from '../logos/Android Rectangle.svg';
+import speed from '../logos/Speed Rectangle.svg';
+import bulb from '../logos/Bulb Rectangle.svg';
+import Testimonials from '../logos/Testimonials.svg';
+import logo from '../logos/Logo.svg';
+import group30 from '../logos/Group30.svg';
+import agency from '../logos/Agency.svg';
+import skyrev from '../logos/SkyRev.svg';
+import socails from "../logos/socails.svg";
+import dropdown from "../logos/dropdown.svg";
 
 export default function Main() {
   return (
@@ -34,7 +34,7 @@ export default function Main() {
         <p className='ml-[112px] mt text-rgba-0-0-0-87 font-roboto text-xl font-medium leading-[36px]'>
           Integer id orci sed ante tincidunt
         </p>
-        <button className="ml-[112px] mt-[24px] text-blue-400 text-center font-roboto text-base font-medium uppercase flex w-[211px] h-[50px] rounded-lg border border-blue-400 bg-white shadow-md p-[4px] justify-center items-center flex-shrink-0">
+        <button className="ml-[112px] mt-[24px] text-writeblue text-center font-roboto text-base font-medium uppercase flex w-[211px] h-[50px] rounded-lg border border-writeblue bg-white shadow-md p-[4px] justify-center items-center flex-shrink-0">
           Write To Us
           <img src={Send} alt='Send Button' className='ml-[20px] w-[15px] h-[18px]' />
         </button>
@@ -44,7 +44,7 @@ export default function Main() {
       </div>
       <div className='flex'>
         <div className='ml-[112px]'>
-          <p className='mt-[191px] text-blue-500 font-roboto text-3xl font-medium leading-[42px]'>
+          <p className='mt-[191px] text-reg-blue font-roboto text-3xl font-medium leading-[42px]'>
             Business Solution
           </p>
           <p className='mt-[7px]'>Interdum et malesuada fames ac ante...</p>
@@ -144,11 +144,11 @@ export default function Main() {
         <img alt='logo' src={logo} />
       </div>
       <div className='flex-col'> 
-        <p className='w-[323px] mt-[167.5px] ml-[137px] text-blue-700 font-roboto text-5xl font-bold leading-[78px]'>Case</p>
-        <p className='w-[323px] mt-[px] ml-[137px] text-blue-700 font-roboto text-5xl font-bold leading-[78px]'> Studies </p>
+        <p className='w-[323px] mt-[167.5px] ml-[137px] text-blue700 font-roboto text-5xl font-bold leading-[78px]'>Case</p>
+        <p className='w-[323px] mt-[px] ml-[137px] text-blue700 font-roboto text-5xl font-bold leading-[78px]'> Studies </p>
       </div>
 <div className='flex'>      <div className=' flex flex-col  mt-[20px] ml-[137px] w-[195px] text-center'>
-        <p className=' mb-4 text-blue-700 font-roboto text-xl  font-normal leading-[36px] bg-blue-200 rounded-lg ml[30px] pr-[38px] '> Corporate</p>
+        <p className=' mb-4 text-blue700 font-roboto text-xl  font-normal leading-[36px] bg-blue-200 rounded-lg ml[30px] pr-[38px] '> Corporate</p>
         <div className='ml-[-20px]'>
           <p className=' mb-4 text-rgba-0-0-0-87 font-roboto text-xl font-normal leading-[36px]'>Advertising</p>
           <p className=' mb-4 text-rgba-0-0-0-87 font-roboto text-xl font-normal leading-[36px] ml-[-4px]'>Marketing</p>
@@ -157,7 +157,7 @@ export default function Main() {
         </div>
       </div>      <div className='ml-[120px] mt-[-170px]'><img alt='group30' src={group30} /></div>
 </div>
-<div className='flex-col w-[1215px] h-[168.206px] flex-shrink-0 rounded-3xl bg-blue-500 mt-[160px] ml-[130px]'> 
+<div className='flex-col w-[1215px] h-[168.206px] flex-shrink-0 rounded-3xl bg-reg-blue mt-[160px] ml-[130px]'> 
 <div className=' mt-[-80px] pl-[-200px]'>
 <p className='text-white font-roboto text-3xl font-bold font-normal ml-[87px] mt-[247px] pt-[43px]'>Ready to get started ?</p>
 <p className='text-white font-roboto text-xl font-medium ml-[87px] mt-[10px] '>Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.</p>
@@ -174,7 +174,7 @@ export default function Main() {
 <div><img alt='skyrev' src={skyrev} className=' ml-[30px] mt-[37px] w-[304px] h-[15px] flex-shrink-0 text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[6px]' /></div>
 </div>
 
-<div className='ml-[172px] mt-[122px]'><p className='text-blue-700 font-roboto text-base font-semibold text-uppercase'>COMPANY</p></div>
+<div className='ml-[172px] mt-[122px]'><p className='text-blue700 font-roboto text-base font-semibold text-uppercase'>COMPANY</p></div>
 <div className='mt-[179px] ml-[-74px]'><p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[1px]'>Donec dignissim</p>
 
 <p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Curabitur egestas</p>
@@ -183,7 +183,7 @@ export default function Main() {
 
 <p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Aenean facilisis</p></div>
 
-<div className='ml-[84px] mt-[122px]'><p className='text-blue-700 font-roboto text-base font-semibold text-uppercase'>SERVICES</p></div>
+<div className='ml-[84px] mt-[122px]'><p className='text-blue700 font-roboto text-base font-semibold text-uppercase'>SERVICES</p></div>
 <div className='ml-[-71px] mt-[144px]'><p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]' >Cras convallis</p>
 
 <p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Vestibulum faucibus</p>
@@ -191,7 +191,7 @@ export default function Main() {
 <p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Quisque lacinia purus</p>
 
 <p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Aliquam nec ex</p></div>
-<div className='ml-[81px] mt-[122px]'><p className='text-blue-700 font-roboto text-base font-semibold text-uppercase'>Resources</p></div>
+<div className='ml-[81px] mt-[122px]'><p className='text-blue700 font-roboto text-base font-semibold text-uppercase'>RESOURCES</p></div>
 <div className='ml-[-72px] mt-[144px]'><p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]' >Suspendisse porttitor</p>
 
 <p className='text-rgba-0-0-0-54 font-roboto text-base font-normal leading-[5px] mt-[35px]'>Nam posuere</p>
